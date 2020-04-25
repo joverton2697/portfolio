@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway&family=Titillium+Web&display=swap');
+
+h1, h2, h3, p {
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Titillium Web', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  position: sticky;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #7BE3FE;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 36px;
+}
+
+.intro {
+  margin: auto;
+  padding: 0 0 0 0;
+  width: 50vw;
+  text-align: center;
+  font-size: 36px;
+}
+
+.welcome {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.welcome h1 {
+  font-size: 48px;
+  margin: 0 0 0 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.animation {
+  background: url('./Images/animated_code.gif') no-repeat fixed;
+  background-size: cover;
+}
+
+.intro p {
+  font-size: 24px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  width: 75vw;
+  margin: auto;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.single_skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottm: 10vh;
+  margin-top: 10vh;
+  width: 33%;
+}
+
+.skill_image {
+  align-self: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.single_project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.single_project p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.line {
+  background-color: #7BE3FE;
+  width: 75%;
+  height: 5px;
+}
+
+.project_image {
+  width: 30vw;
+  height: 30vh;
 }
