@@ -18,7 +18,16 @@ import writing12 from '../Images/Writing_Challenge/writing12.png';
 import writing13 from '../Images/Writing_Challenge/writing13.png';
 import writing14 from '../Images/Writing_Challenge/writing14.png';
 
+import cardinal1 from '../Images/Cardinal/cardinal1.jpg';
+import cardinal2 from '../Images/Cardinal/cardinal2.jpg';
+import cardinal3 from '../Images/Cardinal/cardinal3.jpg';
+import cardinal4 from '../Images/Cardinal/cardinal4.jpg';
 
+import hololens from '../Images/hololens.jpeg';
+
+import dining from '../Images/dining.png';
+
+import emdd from '../Images/emdd.jpeg';
 
 function Projects() {
 
@@ -43,7 +52,9 @@ function Projects() {
                 <div className={"single_project"}>
                     <h3 onClick={() => showHide("hololens")}>Hololens Demo</h3>
                     <div id={"hololens"} className={"hide"}>
+                        <img className={"project_image"} src={hololens}/>
                         <p>This project was a way for the students of the Digital Corps to test ourselves and learn something new.
+                        Unfortunately, I am currently unable to get images of this project.
                         We had recently obtained a Microsoft Hololens and decided to make an application for it that we could use
                         to teach people about what we do at the Corps in a cool way. The project gives you a short quiz meant to help
                         teach about what each team is about and sort users into a team based on their responses. Then there are a few
@@ -111,6 +122,20 @@ function Projects() {
                 <div className={"single_project"}>
                     <h3 onClick={() => showHide("cardinal")}>Cardinal AR</h3>
                     <div id={"cardinal"} className={"hide"}>
+                        <Carousel>
+                            <Carousel.Item>
+                                <img className={"phone_image"} src={cardinal1}/>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img className={"phone_image"} src={cardinal2}/>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img className={"phone_image"} src={cardinal3}/>
+                            </Carousel.Item>
+                            <Carousel.Item>
+                                <img className={"phone_image"} src={cardinal4}/>
+                            </Carousel.Item>
+                        </Carousel>
                         <p>For this project the Digital Corps collaborated with BSU Sportslink, a multimedia studio that works with Ball State
                         Athletics to promote sporting events and sports teams. The project started out as a way to promote the Ball State
                         basketball team by turning a promotional poster into an Augmented Reality (AR) target that played a promo video
@@ -123,6 +148,7 @@ function Projects() {
                 <div className={"single_project"}>
                     <h3 onClick={() => showHide("dining")}>BSU Dining Site</h3>
                     <div id={"dining"} className={"hide"}>
+                        <img className={"project_image"} src={dining}/>
                         <p>This project was a way for students with dietary restrictions to order food that is healthy and safe for them
                         in an easy-to-use and efficient way. Prior to this site the process was very difficult for students and BSU faculty
                         to use. We provided a way for BSU Dining faculty to update their menus and meal times, as well as communicate
@@ -136,6 +162,7 @@ function Projects() {
                 <div className={"single_project"}>
                     <h3 onClick={() => showHide("letterman")}>Letterman Learning</h3>
                     <div id={"letterman"} className={"hide"}>
+                        <img className={"project_image"} src={emdd}/>
                         <p>This was a collaboration with an immersive learning class from the Emerging Media and Digital Design department.
                         The task was to create a space that highlights the career path of David Letterman with an emphasis on lifelong
                         learning rather than glorifying Letterman. Ball State came into possession of a few personal items from

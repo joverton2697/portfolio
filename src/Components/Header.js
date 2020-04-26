@@ -48,9 +48,14 @@ function Header() {
         <section id={"myHeader"}>
             <div id={"content_anchor"} className={"hide"}></div>
             <div className={"header"} id={"header"}>
-                <h2 className={"home"} onClick={home}>Home</h2>
-                <h2 className={"about"} onClick={about}>About</h2>
-                <h2 className={"projects"} onClick={projects}>My Work</h2>
+                <div className={"name"}>
+                    <h2>Joe Overton</h2>
+                </div>
+                <div className={"navigation"}>
+                    <h2 className={"home"} onClick={home}>Home</h2>
+                    <h2 className={"about"} onClick={about}>About Me</h2>
+                    <h2 className={"projects"} onClick={projects}>My Work</h2>
+                </div>
             </div>
         </section>
     );
