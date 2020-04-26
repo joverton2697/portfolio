@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0887f1b-3b3b-4d3e-8c07-ba1aa1ea4f5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Landing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Skills.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/StateAuth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/UnityLogo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/animated_code.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/c#.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/javascript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/php.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/react.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +84,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587833588553</updated>
-      <workItem from="1587833590605" duration="14513000" />
+      <workItem from="1587833590605" duration="15283000" />
+      <workItem from="1587858418851" duration="909000" />
     </task>
     <servers />
   </component>
@@ -114,5 +97,9 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1587842903410" />
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1587858402489">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1587858402489" />
   </component>
 </project>
