@@ -34,6 +34,7 @@ class Skills extends Component {
                         <p>PHP</p>
                     </div>
                 </div>
+                <div className={"section_line"}></div>
             </section>
         )};
 };

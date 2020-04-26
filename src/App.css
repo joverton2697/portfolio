@@ -8,13 +8,20 @@ h1, h2, h3, p {
 .header {
   position: sticky;
   width: 100%;
+  height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   background-color: #7BE3FE;
+  align-items: center;
+}
+
+#content_anchor {
+  height: 50px;
 }
 
 .title {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,6 +34,7 @@ h1, h2, h3, p {
   width: 50vw;
   text-align: center;
   font-size: 36px;
+  margin-bottom: 40px;
 }
 
 .welcome {
@@ -34,7 +42,7 @@ h1, h2, h3, p {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  color: whitesmoke;
+  color: chartreuse;
   align-items: center;
   justify-content: center;
 }
@@ -51,14 +59,14 @@ h1, h2, h3, p {
 
 .intro p {
   font-size: 24px;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .skills {
   display: flex;
   flex-direction: row;
-  width: 75vw;
+  width: 100%;
   margin: auto;
   justify-content: center;
   align-content: flex-start;
@@ -70,8 +78,7 @@ h1, h2, h3, p {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottm: 10vh;
-  margin-top: 10vh;
+  margin-bottom: 10vh;
   width: 33%;
 }
 
@@ -101,15 +108,58 @@ h1, h2, h3, p {
   background-color: #7BE3FE;
   width: 75%;
   height: 5px;
+  margin-bottom: 15px;
 }
 
 .project_image {
-  width: 30vw;
-  height: 30vh;
+  width: 100%;
 }
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%
+}
+
+.hide {
+  display: none;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.section_line {
+  background-color: #7BE3FE;
+  width: 75%;
+  height: 5px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7BE3FE;
+  height: 100px;
+}
+
+.footer div {
+  margin-left: 8vw;
+  margin-right: 8vw;
+}
+
+.footer p {
+  margin-bottom: .3rem;
+}
+
+button {
+  margin-top: 20px !important;
+  background-color: #7BE3FE;
+  height: 6vh;
+  width: 15vw;
 }

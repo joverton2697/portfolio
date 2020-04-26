@@ -3,11 +3,12 @@ import React, {Component, useEffect} from 'react';
 function Header() {
 
     let header;
+    let anchor;
     let sticky;
 
     useEffect(() => {
+        anchor = document.getElementById("content_anchor");
         header = document.getElementById("header");
-
         sticky = header.offsetTop;
     }, []);
 
@@ -16,7 +17,9 @@ function Header() {
     function myFunction() {
         if (window.pageYOffset > sticky) {
             header.classList.add("sticky");
+            anchor.classList.remove("hide");
         } else {
+            anchor.classList.add("hide");
             header.classList.remove("sticky");
         }
     }
@@ -43,6 +46,7 @@ function Header() {
 
     return (
         <section id={"myHeader"}>
+            <div id={"content_anchor"} className={"hide"}></div>
             <div className={"header"} id={"header"}>
                 <h2 className={"home"} onClick={home}>Home</h2>
                 <h2 className={"about"} onClick={about}>About</h2>

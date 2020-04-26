@@ -2,12 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0887f1b-3b3b-4d3e-8c07-ba1aa1ea4f5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Writing_Challenge/writing9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Animation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Landing.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images/Writing_Challenge" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -47,6 +68,9 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Images/Writing_Challenge" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Images" />
     </key>
@@ -89,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587833588553</updated>
       <workItem from="1587833590605" duration="15283000" />
-      <workItem from="1587858418851" duration="4144000" />
+      <workItem from="1587858418851" duration="12733000" />
     </task>
     <servers />
   </component>

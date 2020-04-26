@@ -12,6 +12,7 @@ class Landing extends Component {
                         at Ball State I worked at the Digital Corps, creating content for various university organizations.
                     </p>
                 </div>
+                <div className={"section_line"}></div>
             </section>
         )};
 };
