@@ -107,3 +107,9 @@ h1, h2, h3, p {
   width: 30vw;
   height: 30vh;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}

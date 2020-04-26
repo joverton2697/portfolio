@@ -6,7 +6,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <section>
+            <section id={"projects"}>
                 <h2 className={"intro"}>Projects</h2>
                 <div className={"projects"}>
                     <div className={"single_project"}>

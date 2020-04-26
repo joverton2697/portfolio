@@ -4,7 +4,7 @@ class Animation extends Component {
 
     render() {
         return (
-            <section className={"animation"}>
+            <section className={"animation"} id={"home"}>
                 <div className={"welcome"}>
                     <h1>Welcome to my website!</h1>
                     <h1>I'm Joe Overton, a software developer.</h1>
