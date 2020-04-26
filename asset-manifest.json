@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/joverton2697/portfolio/static/css/main.2e767b1a.chunk.css",
+    "main.js": "/joverton2697/portfolio/static/js/main.ac8a6820.chunk.js",
+    "main.js.map": "/joverton2697/portfolio/static/js/main.ac8a6820.chunk.js.map",
+    "runtime-main.js": "/joverton2697/portfolio/static/js/runtime-main.30a9921e.js",
+    "runtime-main.js.map": "/joverton2697/portfolio/static/js/runtime-main.30a9921e.js.map",
+    "static/js/2.f7a037de.chunk.js": "/joverton2697/portfolio/static/js/2.f7a037de.chunk.js",
+    "static/js/2.f7a037de.chunk.js.map": "/joverton2697/portfolio/static/js/2.f7a037de.chunk.js.map",
+    "index.html": "/joverton2697/portfolio/index.html",
+    "precache-manifest.f40e212f2e9734ee81746b40c386c971.js": "/joverton2697/portfolio/precache-manifest.f40e212f2e9734ee81746b40c386c971.js",
+    "service-worker.js": "/joverton2697/portfolio/service-worker.js",
+    "static/css/main.2e767b1a.chunk.css.map": "/joverton2697/portfolio/static/css/main.2e767b1a.chunk.css.map",
+    "static/js/2.f7a037de.chunk.js.LICENSE.txt": "/joverton2697/portfolio/static/js/2.f7a037de.chunk.js.LICENSE.txt",
+    "static/media/StateAuth.png": "/joverton2697/portfolio/static/media/StateAuth.cf5e8f76.png",
+    "static/media/App.css": "/joverton2697/portfolio/static/media/animated_code.327b2bd5.gif",
+    "static/media/logo.svg": "/joverton2697/portfolio/static/media/logo.5d5d9eef.svg",
+    "static/media/react.jpeg": "/joverton2697/portfolio/static/media/react.a383c467.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30a9921e.js",
+    "static/js/2.f7a037de.chunk.js",
+    "static/css/main.2e767b1a.chunk.css",
+    "static/js/main.ac8a6820.chunk.js"
+  ]
+}
